@@ -190,3 +190,169 @@ margin-bottom: 50px;
     color:#6B7280;
     font-size:14px;
 }
+
+/* Pricing Section */
+
+.pricing{
+
+    width:100%;
+    padding:100px 0;
+    background:#ffffff;
+
+}
+
+.pricing h1{
+
+    text-align:center;
+    font-size:50px;
+    margin-bottom:10px;
+
+}
+
+.pricing p{
+
+    text-align:center;
+    color:gray;
+    margin-bottom:60px;
+
+}
+
+
+
+/* Cards */
+
+.pricing-container{
+
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+
+}
+
+
+
+/* Single Card */
+
+.card{
+
+    width:340px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    padding:30px;
+
+}
+
+
+
+.card h5{
+
+    color:gray;
+    margin-bottom:15px;
+
+}
+
+
+
+.card h2{
+
+    font-size:45px;
+    margin-bottom:5px;
+
+}
+
+
+
+.card span{
+
+    color:gray;
+
+}
+
+
+
+.card hr{
+
+    margin:25px 0;
+
+}
+
+
+
+.card ul{
+
+    padding-left:18px;
+
+}
+
+
+
+.card ul li{
+
+    margin-bottom:15px;
+    color:#555;
+
+}
+
+
+
+.card button{
+
+    width:100%;
+    padding:14px;
+
+    border:1px solid royalblue;
+    background:white;
+    color:royalblue;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    margin-top:20px;
+
+    cursor:pointer;
+
+}
+
+
+
+/* Middle Card */
+
+.active{
+
+    background:#0F172A;
+    color:white;
+
+}
+
+
+
+.active span{
+
+    color:#bfc7d6;
+
+}
+
+
+
+.active ul li{
+
+    color:#d5d9e2;
+
+}
+
+
+
+.active button{
+
+    background:#3366ff;
+    color:white;
+    border:none;
+
+}
